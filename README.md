@@ -20,5 +20,11 @@ Para acceder al metodo "comprobarSexo(char sexo)" he tenido que crear un metodo 
 
 También he incluido el tipo de persona como un nuevo atributo de tipo constante para saber si es estudiante o profesor al mostrar los datos.  
 
-En el toString() de la clase abstracta he incluido el metodo getSexo() para que se imprima el sexo correcto, dependiendo si es el indicado por defecto o el establecido al crear el objeto.  
+En el toString() de la clase abstracta he incluido el metodo getSexo() para que se imprima el sexo correcto, dependiendo si es el indicado por defecto o el establecido al crear el objeto. 
+
+### Pregunta 2 ~ Programación estructurada  
+Al hacer el ejercicio para verificar si el array es pseudo dominó, creo que mi solución es muy larga.  
+
+**Agradecería que este ejercicio lo resolvieramos en clase para saber si hay otra manera más eficiente.**  
+
 
