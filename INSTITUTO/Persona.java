@@ -36,6 +36,12 @@ public abstract class Persona {
         return (sexo == SEXO) ? SEXO : sexo;
     }
 
+    
+
+    public int getEdad() {
+        return edad;
+    }
+
     public double getPeso() {
         return peso;
     }

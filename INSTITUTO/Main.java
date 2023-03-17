@@ -11,11 +11,9 @@ public class Main {
     System.out.println("--------------------------------------------------------------------------------");
     System.out.println(stud1.toString()); 
     stud1.comprobarSexo(stud1.getSexo());
+    stud1.esMayorDeEdad(stud1.getEdad());
     stud1.calcularIMC(stud1.getPeso(),stud1.getAltura());
 
-    
-
-   
     }
 }
 
