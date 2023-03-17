@@ -14,12 +14,10 @@ public class Estudiante extends Persona {
 
     public Estudiante(String nombre, int edad, String dNI, double peso, double altura, char sexo) {
         super(nombre, edad, dNI, sexo, peso, altura);
-        comprobarSexo(sexo);
     }
 
     public Estudiante(String nombre, int edad, String dNI, double peso, double altura) {
         super(nombre, edad, dNI,SEXO, peso, edad);
-        comprobarSexo(SEXO);
     }
 
     @Override

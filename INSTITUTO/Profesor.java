@@ -13,14 +13,12 @@ public class Profesor extends Persona {
 
     public Profesor(String nombre, int edad, String dNI, double peso, double altura) {
         super(nombre, edad, dNI, SEXO, peso, edad);
-        comprobarSexo(SEXO);
     }
 
 
 
     public Profesor(String nombre, int edad, String dNI, char sexo, double peso, double altura) {
         super(nombre, edad, dNI, sexo, peso, altura);
-        comprobarSexo(sexo);
     }
 
 
