@@ -5,11 +5,7 @@ public abstract class Persona {
     private String nombre;
     private int edad;
     private String DNI;
-    //En el ejercicio indica que debe ser una constante...pero una constante no se puede modificar. 
-    //La constante sería de la siguiente manera
-    //private final String sexo="H";
-    //Creo que es más conveniente crear una variable "static" que me permitirá que las subclases tengan este valor por defecto
-    //Y se pueda modificar mediante un constructor de una subclase.
+    //He creado dos atributos de la clase, una constante y otra que se puede modificar al crear los objetos.
     public static final char SEXO='H';
     private char sexo;
     private double peso;
