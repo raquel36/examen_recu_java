@@ -1,4 +1,5 @@
 # examen_recu_java
+## Utilización de getters y setters
 En la programación orientada a objetos en Java, el uso de getters y setters no es obligatorio, pero se considera una buena práctica de programación.
 
 Los getters y setters son métodos que se utilizan para acceder y modificar los atributos de una clase de forma controlada. 
@@ -13,3 +14,11 @@ En estos casos, se puede acceder a los atributos directamente desde el código q
 setters para mantener una buena encapsulación y modularidad en el diseño de la clase.
 
 En este ejercicio en particular es util emplear los getters para acceder a los datos de los objetos creados al llamar a los métodos sin tener que inicializarlos de nuevo.
+
+## Algunos extras y problemas
+Para acceder al metodo "comprobarSexo(char sexo)" he tenido que crear un metodo getSexo() que me permite acceder al sexo por defecto o al sexo indicado según la manera en que se haya creado el objeto.  
+
+También he incluido el tipo de persona como un nuevo atributo de tipo constante para saber si es estudiante o profesor al mostrar los datos.  
+
+En el toString() de la clase abstracta he incluido el metodo getSexo() para que se imprima el sexo correcto, dependiendo si es el indicado por defecto o el establecido al crear el objeto.  
+
