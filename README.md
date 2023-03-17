@@ -12,5 +12,4 @@ Sin embargo, en algunas situaciones puede no ser necesario utilizar getters y se
 En estos casos, se puede acceder a los atributos directamente desde el código que utiliza la clase. Pero en general, se recomienda el uso de getters y 
 setters para mantener una buena encapsulación y modularidad en el diseño de la clase.
 
-En este ejercicio en particular, es util emplear los getters para poder incluir el sexo por defecto al definir los constructores en las subclases. 
-También para acceder a los datos de los objetos creados al llamar a los métodos sin tener que inicializarlos de nuevo.
+En este ejercicio en particular es util emplear los getters para acceder a los datos de los objetos creados al llamar a los métodos sin tener que inicializarlos de nuevo.
