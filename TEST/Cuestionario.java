@@ -22,7 +22,7 @@ public class Cuestionario{
 
     }
 
-    public static Integer puntosPregunta(char ru, char rc){
+    public static int puntosPregunta(char ru, char rc){
         int puntos=0;
         if (ru == rc){
             puntos=2;
@@ -32,7 +32,7 @@ public class Cuestionario{
         return puntos;
     }
 
-    public static Integer puntosCuestionario(ArrayList<Character> respuestas, ArrayList<Character> claves){
+    public static int puntosCuestionario(ArrayList<Character> respuestas, ArrayList<Character> claves){
         int total=0;
         for(int i=0; i<respuestas.size(); i++){
             for(int j=0; j<claves.size(); j++){
