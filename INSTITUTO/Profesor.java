@@ -12,7 +12,7 @@ public class Profesor extends Persona {
     
 
     public Profesor(String nombre, int edad, String dNI, double peso, double altura) {
-        super(nombre, edad, dNI, SEXO, peso, edad);
+        super(nombre, edad, dNI, SEXO, peso, altura);
     }
 
 
